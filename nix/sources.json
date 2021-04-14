@@ -5,10 +5,10 @@
         "homepage": "",
         "owner": "Xe",
         "repo": "linux",
-        "rev": "f62eeb82824b55ad89948f2ba4d853f429864a52",
-        "sha256": "02xp2jxp31v051g5m3rrj8z5pp523rsx4lazcfkgy4cxnq9vkyfa",
+        "rev": "9559f817b10e699567c3a3519070816f7c8aceff",
+        "sha256": "1prrsy3r3zm1aipms7gnwjykk4026pvda0kqpzgb24llnhp68vx0",
         "type": "tarball",
-        "url": "https://github.com/Xe/linux/archive/f62eeb82824b55ad89948f2ba4d853f429864a52.tar.gz",
+        "url": "https://github.com/Xe/linux/archive/9559f817b10e699567c3a3519070816f7c8aceff.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "niv": {
