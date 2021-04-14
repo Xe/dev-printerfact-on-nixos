@@ -3,12 +3,12 @@
         "branch": "rust",
         "description": "Adding support for the Rust language to the Linux kernel.",
         "homepage": "",
-        "owner": "rust-for-linux",
+        "owner": "Xe",
         "repo": "linux",
-        "rev": "304ee695107a8b49a833bb1f02d58c1029e43623",
-        "sha256": "0wd1f1hfpl06yyp482f9lgj7l7r09zfqci8awxk9ahhdrx567y50",
+        "rev": "f62eeb82824b55ad89948f2ba4d853f429864a52",
+        "sha256": "02xp2jxp31v051g5m3rrj8z5pp523rsx4lazcfkgy4cxnq9vkyfa",
         "type": "tarball",
-        "url": "https://github.com/rust-for-linux/linux/archive/304ee695107a8b49a833bb1f02d58c1029e43623.tar.gz",
+        "url": "https://github.com/Xe/linux/archive/f62eeb82824b55ad89948f2ba4d853f429864a52.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "niv": {
@@ -29,10 +29,10 @@
         "homepage": "",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "f35d716fe1e35a7f12cc2108ed3ef5b15ce622d0",
-        "sha256": "1jmrm71amccwklx0h1bij65hzzc41jfxi59g5bf2w6vyz2cmfgsb",
+        "rev": "3aec774aaafee1600a56754ea48131d858f2a852",
+        "sha256": "1j6q84l4jz4sizpqrbmabx0fnnapsskgqci678dxh5xcbmk674xl",
         "type": "tarball",
-        "url": "https://github.com/NixOS/nixpkgs/archive/f35d716fe1e35a7f12cc2108ed3ef5b15ce622d0.tar.gz",
+        "url": "https://github.com/NixOS/nixpkgs/archive/3aec774aaafee1600a56754ea48131d858f2a852.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }
