@@ -1,4 +1,4 @@
-{ system ? builtins.currentSystem }:
+{ system ? builtins.currentSystem, ... }:
 
 let
   sources = import nix/sources.nix;
@@ -6,7 +6,7 @@ let
 
   rust-for-linux = {
     kernel = pkgs.callPackage ./kernel.nix {
-      version = "5.11";
+      version = "5.11.69";
       src = sources.linux;
     };
   };

@@ -7,15 +7,14 @@ in import "${pkgs}/nixos/tests/make-test-python.nix" ({ pkgs, ... }: {
   nodes.machine = { config, pkgs, ... }: {
     nixpkgs.overlays = [
       (self: super: {
-        Xelinux = super.linuxPackages_5_11
-          // super.linuxPackages_5_11.overrideAttrs
-          (old: { kernel = super.callPackage ./. { }; });
+        Xelinux = super.callPackage ./. { };
+        XelinuxPackages = super.linuxPackagesFor self.Xelinux;
       })
     ];
 
     virtualisation.graphics = false;
 
-    boot.kernelPackages = pkgs.Xelinux;
+    boot.kernelPackages = pkgs.XelinuxPackages;
   };
 
   testScript = ''
