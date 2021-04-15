@@ -4,12 +4,9 @@ let
   sources = import nix/sources.nix;
   pkgs = import sources.nixpkgs { inherit system; };
 
-  rust-for-linux = {
-    kernel = pkgs.callPackage ./kernel.nix {
-      version = "5.11.69";
-      src = sources.linux;
-    };
+  kernel = pkgs.callPackage ./kernel.nix {
+    version = "5.12.0-rc4";
+    src = sources.linux;
   };
 
-in
-  rust-for-linux
+in kernel
