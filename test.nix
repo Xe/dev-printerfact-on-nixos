@@ -32,6 +32,6 @@ in import "${pkgs}/nixos/tests/make-test-python.nix" ({ pkgs, ... }: {
     machine.wait_for_file("/dev/printerfact")
 
     print(machine.wait_until_succeeds("stat /dev/printerfact"))
-    machine.wait_until_succeeds("cat /dev/printerfact")
+    print(machine.wait_until_succeeds("cat /dev/printerfact"))
   '';
 })
